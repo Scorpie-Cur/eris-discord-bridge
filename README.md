@@ -47,6 +47,22 @@ sample of `config.json`
 - `banned_user_list` this can be used to block some users from using the LLM
 - `ban_message`  message that displays to the user that they are unable to access the LLM and the reason why
 
+## To Run
+After setting up the discord bot token, and the config file running the program by calling
+
+```shell
+python3 bot.py
+```
+
+If everything is successful the following output will display on the terminal below
+
+```
+2024-12-31 11:19:17 INFO     discord.client logging in using static token
+2024-12-31 11:19:18 INFO     discord.gateway
+We have logged in as {BOT_NAME}
+```
+
+
 ## Response from ollama api
 
 ```json
