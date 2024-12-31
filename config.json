@@ -1,0 +1,16 @@
+{
+    "bot_token": "{BOT_TOKEN}",
+    "llama_server_url": "{OLLAMA_SERVER_URL}",
+    "active_model": "llama3.2:1b",
+    "default_model": "llama3.2:1b",
+    "model_pre_prompt": "Keep your response short for the user, here is the users message. ",
+    "bot_commands": {
+        "prompt": "Ask me a question, and I'll respond with an answer.",
+        "currentmodel": "Shows current model running.",
+        "setmodel": "Allows user to define a differnt model sample `$setmodel llama3.2:1b` will change the model to `llama3.2:1b`.",
+        "models": "Lists all installed models on server.",
+        "help": "Pretty obvious what this command does."
+    },
+    "banned_user_list": "",
+    "ban_message": "I am sorry, but I cannot assist you at this moment. If you believe is this is a mistake, contact the app owner."
+}
